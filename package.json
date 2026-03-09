@@ -1,6 +1,9 @@
 {
   "name": "dsa-daily-practice",
   "version": "1.0.0",
+  "description": "Daily Data Structures and Algorithms practice using TypeScript",
+  "private": true,
+  "type": "module",
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint . --ext .ts",
@@ -8,6 +11,7 @@
     "run": "ts-node"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^8.56.1",
     "@typescript-eslint/parser": "^8.56.1",
     "eslint": "^10.0.3",
@@ -16,6 +20,7 @@
     "prettier": "^3.8.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.0",
     "vitest": "^4.0.18"
   },
   "lint-staged": {

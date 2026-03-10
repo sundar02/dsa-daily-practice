@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { twoSum } from './twoSum';
+import { twoSum } from './twoSum.js';
 
 describe('twoSum', () => {
   it('should return correct indices', () => {
